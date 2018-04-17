@@ -38,6 +38,20 @@ Configuration sample:
     }
 ```
 
+# Home App
+
+If everything worked, you should see a new Thermostat icon in the Home app:
+
+![alt text](https://github.com/dippnerd/homebridge-window-ac-thermostat/raw/master/img/home-app.png "HomeKit Thermostat")
+
+If you open that up, we should have a Temperature slider:
+
+![alt text](https://github.com/dippnerd/homebridge-window-ac-thermostat/raw/master/img/temperature.png "Temperature slider")
+
+And tapping "Mode" at the bottom left should give us options to toggle the AC mode:
+
+![alt text](https://github.com/dippnerd/homebridge-window-ac-thermostat/raw/master/img/mode.png "Mode options")
+
 # Notes
 
 This was built to interface with the [Window-AC-Web-API](https://github.com/dippnerd/Window-AC-Web-API) using a NodeMCU v1.0. It can be easily modified to work with Arduino or other similar devices, refer to that project for more details. 
