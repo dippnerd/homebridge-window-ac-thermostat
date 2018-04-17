@@ -52,6 +52,8 @@ And tapping "Mode" at the bottom left should give us options to toggle the AC mo
 
 ![alt text](https://github.com/dippnerd/homebridge-window-ac-thermostat/raw/master/img/mode.png "Mode options")
 
+Using the Home app, you can now remotely control your AC or use Siri for things like "set living room to 'cool'" or "set bedroom to 72 degrees". You can also create automations such as "when no one is home, turn off all ACs" or "30 minutes before bed time, start cooling the bedroom." 
+
 # Notes
 
 This was built to interface with the [Window-AC-Web-API](https://github.com/dippnerd/Window-AC-Web-API) using a NodeMCU v1.0. It can be easily modified to work with Arduino or other similar devices, refer to that project for more details. 
